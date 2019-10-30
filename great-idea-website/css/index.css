@@ -5,14 +5,21 @@
 nav {
 	text-align:center;
 	height:100px;
+	padding-top: 30px;
+	width:80%;
+	display: inline-block;
 }
 nav a {
 	margin: 3%;
 	text-decoration: none;
-	color: lightgrey;
+	color: grey;
+	padding-bottom: 35px;
 }
 nav a:hover{
 	color: blue;
+}
+.logo{
+	width: 19%;
 }
 
 .headerText {
@@ -45,24 +52,27 @@ header h1 {
 .container{
 	max-width: 90%;
 	margin: 0 auto;
+	padding: 30px 0;
 }
 .box {
 	display: inline-block;
 }
 .topContent{
-	margin:50px 0;
+	border-top: 2px solid black;
+	padding: 53px 0px;
 }
 .topContent .box{
 	margin: 0 auto;
 	width: 49.7%;
 }
 .middle-img{
-	margin:0 auto;
+	margin:30px auto;
 	text-align: center;
 	display: block;
 }
 .bottomContent{
-	margin:50px 0;
+	border-bottom: 2px solid black;
+	padding-bottom: 53px;
 }
 .bottomContent .box{
 	margin: 0 auto;
@@ -72,8 +82,11 @@ header h1 {
 .contact{
 	display:block;
 }
+.contact h2{
+	margin: 25px 0;
+}
 .contact .number{
-	line-height: 1.5;
+	margin: 20px 0;
 }
 footer {
 	text-align:center;
