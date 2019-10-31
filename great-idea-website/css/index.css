@@ -1,66 +1,94 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+	border: 5px solid red;
+	box-sizing: border-box;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+nav {
+	text-align:center;
+	height:100px;
+	padding-top: 30px;
+	width:80%;
+	display: inline-block;
+}
+nav a {
+	margin: 3%;
+	text-decoration: none;
+	color: grey;
+	padding-bottom: 35px;
+}
+nav a:hover{
+	color: blue;
+}
+.logo{
+	width: 19%;
+}
+
+.headerText {
+	display:inline-block;
+	width: 50%;
+	margin:0 auto;
+	text-align:center;
+	padding:50px 0px 50px 0px;
+}
+header img{
+	text-align:right;
+}
+.button{
+	width: 150px;
+	height:35px;
+	border:2px solid black;
+	margin:0 auto;
+	padding-top: 5px;
+}
+.button:hover{
+	color:white;
+	background-color:black;
+	border:2px solid grey;
+}
+
+header h1 {
+	font-size:70px;
+}
+
+.container{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.box {
+	display: inline-block;
+}
+.topContent{
+	border-top: 2px solid black;
+	padding: 53px 0px;
+}
+.topContent .box{
+	margin: 0 auto;
+	width: 49.7%;
+}
+.middle-img{
+	margin:30px auto;
+	text-align: center;
 	display: block;
 }
-body {
-	line-height: 1;
+.bottomContent{
+	border-bottom: 2px solid black;
+	padding-bottom: 53px;
 }
-ol, ul {
-	list-style: none;
+.bottomContent .box{
+	margin: 0 auto;
+	width: 33%;
+	padding: 10px;
 }
-blockquote, q {
-	quotes: none;
+.contact{
+	display:block;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.contact h2{
+	margin: 25px 0;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+.contact .number{
+	margin: 20px 0;
 }
-
-/* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+footer {
+	text-align:center;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-/* Your code starts here! */
